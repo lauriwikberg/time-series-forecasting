@@ -1,6 +1,3 @@
-# ARMA(1,1) Time Series Forecasting Project
-
-**Overview:**  
 This project implements an ARMA(1,1) model in Python to analyze and forecast a univariate time series. It estimates model parameters, generates one-step-ahead forecasts, and evaluates prediction accuracy.
 
 **Key Focus:**  
