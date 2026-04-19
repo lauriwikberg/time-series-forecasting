@@ -4,9 +4,11 @@ Monthly time series of the industrial production volume index is modeled using a
 
 The final model consists of:
 
-AR (Auto-Regressive) component
-MA (Moving Average) component
-Seasonal component
+-AR (Auto-Regressive) component
+
+-MA (Moving Average) component
+
+-Seasonal component
 
 These are used to capture the evolution of the index with a proper train-test split.
 
@@ -38,5 +40,6 @@ The models are trained and evaluated using validation and test sets to select th
 
 The GRU model shows slightly better generalization on the test set.
 
-In-sample forecasting: one-step-ahead prediction
-Out-of-sample forecasting: recursive forecast of 8 quarters ahead
+-In-sample forecasting: one-step-ahead prediction
+
+-Out-of-sample forecasting: recursive forecast of 8 quarters ahead
