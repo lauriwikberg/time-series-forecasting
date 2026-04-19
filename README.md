@@ -1,3 +1,4 @@
+*all data is from Tilastokeskus (https://stat.fi/fi)*
 **SARIMAX**
 
 Monthly time series of the industrial production volume index is modeled using a SARIMAX model in Python.
