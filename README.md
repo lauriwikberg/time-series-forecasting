@@ -1,6 +1,6 @@
 **SARIMAX**
 
-Monthly time series of the industrial production index is modeled using a SARIMAX model in Python.
+Monthly time series of the industrial production volume index is modeled using a SARIMAX model in Python.
 
 The final model consists of:
 
