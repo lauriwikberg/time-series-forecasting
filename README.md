@@ -1,4 +1,5 @@
-*SARIMAX*
+**SARIMAX**
+
 Monthly time series of the industrial production index is modeled using a SARIMAX model in Python.
 
 The final model consists of:
@@ -11,7 +12,7 @@ These are used to capture the evolution of the index with a proper train-test sp
 
 The forecast is a multi-step forecast in an internal recursion sense.
 
-*VAR*
+**VAR**
 
 Quarterly time series of vacancies and unemployment is modeled using a Vector Autoregressive (VAR) model.
 
@@ -21,7 +22,7 @@ The two series move in opposite directions, with vacancies acting as a leading i
 
 The forecast is a multi-step forecast in an internal recursion sense.
 
-*Prophet*
+**Prophet**
 
 Quarterly time series of Kruununhaka m²/€ real estate prices is modeled using Prophet, to capture long-term trend and seasonality.
 
@@ -29,7 +30,7 @@ A forward forecast of 20 quarters (5 years) is generated.
 
 The forecast is a one-shot multi-step forecast, where all future points are predicted simultaneously.
 
-*RNNs (LSTM and GRU)
+**RNNs (LSTM and GRU)**
 
 A comparison of LSTM (Long Short-Term Memory) and GRU (Gated Recurrent Unit) is performed on quarterly bankruptcy data.
 
