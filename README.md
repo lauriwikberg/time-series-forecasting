@@ -6,11 +6,11 @@ Monthly time series of the industrial production volume index is modeled using a
 
 The final model consists of:
 
--AR (Auto-Regressive) component
+- AR (Auto-Regressive) component
 
--MA (Moving Average) component
+- MA (Moving Average) component
 
--Seasonal component
+- Seasonal component
 
 These are used to capture the evolution of the index with a proper train-test split.
 
