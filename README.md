@@ -42,6 +42,6 @@ The models are trained and evaluated using validation and test sets to select th
 
 The GRU model shows slightly better generalization on the test set.
 
--In-sample forecasting: one-step-ahead prediction
+- In-sample forecasting: one-step-ahead prediction
 
--Out-of-sample forecasting: recursive forecast of 8 quarters ahead
+- Out-of-sample forecasting: recursive forecast of 8 quarters ahead
