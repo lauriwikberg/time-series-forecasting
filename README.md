@@ -4,7 +4,7 @@
 
 Monthly time series of the industrial production volume index is modeled using a SARIMAX model in Python.
 
-The final SARIMA model includes non-seasonal and seasonal moving average components with both non-seasonal and seasonal differencing, and it does not include any autoregressive components. SARIMAX(0,1,1)x(0,1,1,12)
+The final SARIMA model includes non-seasonal and seasonal moving average components with both non-seasonal and seasonal differencing, and it does not include any autoregressive components.
 
 These are used to capture the evolution of the index with a proper train-test split.
 
